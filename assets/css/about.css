@@ -1,0 +1,86 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+.dhc-about-us{
+    min-height: 100vh;
+    padding: 80px 0px;
+    background-color: #ec8dd7d0;
+}
+.dhc-container{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+.dhc-about-image{
+    width: 450px;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.dhc-about-image img{
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.dhc-about-image:hover img{
+    transition: scale(1.1);
+}
+.dhc-about-content{
+    width: 50%;
+    margin-left: 40px;
+}
+.dhc-about-content h2{
+    color:rgb(63, 3, 63);
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.dhc-social-links{
+    margin-bottom: 20px
+}
+.dhc-social-links a{
+    display: inline-block;
+    margin-right: 10px;
+    color:#300326;
+    font-size: 18px;
+    transition: color 0.3 ease;
+}
+.dhc-social-links a:hover{
+    color:rgb(63, 3, 63);
+}
+.dhc-btn{
+    font-size: 17px;
+    display: inline-block;
+    padding: 12px 16px;
+    background-color:#300326 ;
+    color:beige;
+    text-decoration: none;
+}
+.dhc-btn i{
+    margin-right: 5px;
+}
+.dhc-btn:hover{
+    background-color: #a757a7 ;
+}
+@media screen and (max-width: 768px){
+    .dhc-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .dhc-about-image, .dhc-about-content{
+        width:100%
+    }
+    .dhc-about-content{
+        padding: 0px;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+}
