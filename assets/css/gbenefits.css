@@ -1,7 +1,7 @@
 /* General Reset */
 body, h1, h2, p {
     margin: 0;
-    padding: 0;
+    padding: 5px;
     box-sizing: border-box;
 }
 
@@ -10,8 +10,8 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #ee4bcba9;
     color: #333;
-    line-height: 1.6;
-    padding: 20px;
+    line-height: 1.8;
+    padding: 25px;
 }
 
 .dhc-gummy-benefits {
