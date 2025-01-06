@@ -1,0 +1,85 @@
+/* General Reset */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ee4bcba9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.gummy-benefits {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+/* Heading */
+.gummy-benefits h1 {
+    color: #570044;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.gummy-benefits .intro {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.benefit-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.benefit-item {
+    flex: 1 1 250px;
+    max-width: 300px;
+    background-color: #ffeaf4;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.benefit-item:hover {
+    transform: translateY(-5px);
+}
+
+.benefit-item img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+
+.benefit-item h2 {
+    font-size: 1.5em;
+    color: #570044;
+    margin-bottom: 10px;
+}
+
+.benefit-item p {
+    color: #555;
+    font-size: 1em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .benefit-list {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
