@@ -135,34 +135,6 @@ body{
     font-weight: 700;
     font-size: 40px;
 }
-.box-btn{
-    display: inline-block;
-    text-decoration: none;
-    color:#fff;
-    text-transform: uppercase;
-    background-color: #ec8dd8;
-    font-weight: 600%;
-    padding: 10px 30px;
-    transition: .3s;
-    position: relative;
-    overflow: hidden;
-    z-index: 2;
-}
-.box-btn:before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height:100%;
-    background-color: #b14f9c;
-    left: -100%;
-    top: 0;
-    transition: .3s;
-    z-index: -1;
-} 
-.box-btn:hover::before{
-    left:0;
-    
-}
 .slider-area .owl-dots button{
     width: 20px;
     height: 20px;
@@ -179,4 +151,17 @@ body{
     top: 50%;
     transform: translateY(-50%);
 }
+.shop-now-button {
+    background-color: #ec8dd8; 
+    font-size: 18px; 
+    padding: 12px 24px; 
+    border-radius: 30px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    font-weight: bold; 
+}
 
+.shop-now-button:hover {
+    background-color: #d26d9e; 
+    transform: translateY(-5px); 
+}

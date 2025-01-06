@@ -1,0 +1,64 @@
+*{
+    font-family: 'Ppoppins' , sans-serif;
+    margin:0; padding:0;
+    box-sizing:border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+body{
+    background-color:  #ee4bcb;
+}
+.dhc-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2 rem;
+}
+.dhc-container .title{
+    font-size: 3.5rem;
+    color: #444;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-align:center;
+}
+.dhc-container .dhc-products-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fir, minmax(30rem, 1fr));
+    gap:2rem;
+}
+.dhc-container .dhc-products-container .dhc-product{
+    text-align: center;
+    padding:3rem 2rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0,0, .1);
+    outline: .1rem solid #ccc;
+    outline-offset: -1.5rem;
+    cursor: pointer;
+}
+.dhc-container .dhc-products-container .dhc-product:hover{
+    outline: .2rem solid #222;
+    outline-offset: 0;
+}
+.dhc-container .dhc-products-container .dhc-product img{
+    height: 25rem;
+}
+.dhc-container .dhc-products-container .dhc-product:hover img{
+    transform: scale(.9);
+}
+.dhc-container .dhc-products-container .dhc-product h3{
+    padding: .5rem;
+    font-size:2rem;
+    color:#444;
+}
+.dhc-container .dhc-products-container .dhc-product:hover h3{
+    color:#27ae60;
+}
+.dhc-container .dhc-products-container .dhc-product .dhc-qmimi{
+    font-size:2rem;
+    color:#444;
+    
+}
