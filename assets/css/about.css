@@ -14,7 +14,7 @@ body {
     padding: 0;
 }
 
-.container {
+.dhc-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -24,15 +24,15 @@ body {
 }
 
 
-.about-image img {
-    width: 100%;
-    max-width: 500px;
+.dhc-about-image img {
+    width: 50%;
+    max-width: 300px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* About Content */
-.about-content {
+.dhc-about-content {
     flex: 1;
     padding: 20px;
     background: #f0eeee;
@@ -40,25 +40,25 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.about-content h1 {
+.dhc-about-content h1 {
     color: #570044;
     font-size: 2.5em;
     margin-bottom: 10px;
 }
 
-.about-content h2 {
+.dhc-about-content h2 {
     color: #570044;
     font-size: 1.8em;
     margin: 20px 0 10px;
 }
 
-.about-content p {
+.dhc-about-content p {
     margin-bottom: 10px;
     color: #555;
 }
 
 
-.about-section h2 {
+.dhc-about-section h2 {
     margin-top: 20px;
     font-size: 1.8em;
 }

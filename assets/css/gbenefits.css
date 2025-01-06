@@ -14,7 +14,7 @@ body {
     padding: 20px;
 }
 
-.gummy-benefits {
+.dhc-gummy-benefits {
     text-align: center;
     background-color: #fff;
     padding: 40px 20px;
@@ -25,26 +25,26 @@ body {
 }
 
 /* Heading */
-.gummy-benefits h1 {
+.dhc-gummy-benefits h1 {
     color: #570044;
     font-size: 2.5em;
     margin-bottom: 20px;
 }
 
-.gummy-benefits .intro {
+.dhc-gummy-benefits .intro {
     font-size: 1.2em;
     color: #555;
     margin-bottom: 30px;
 }
 
-.benefit-list {
+.dhc-benefit-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
 
-.benefit-item {
+.dhc-benefit-item {
     flex: 1 1 250px;
     max-width: 300px;
     background-color: #ffeaf4;
@@ -55,23 +55,23 @@ body {
     transition: transform 0.3s ease;
 }
 
-.benefit-item:hover {
+.dhc-benefit-item:hover {
     transform: translateY(-5px);
 }
 
-.benefit-item img {
+.dhc-benefit-item img {
     width: 60px;
     margin-bottom: 15px;
 }
 
 
-.benefit-item h2 {
+.dhc-benefit-item h2 {
     font-size: 1.5em;
     color: #570044;
     margin-bottom: 10px;
 }
 
-.benefit-item p {
+.dhc-benefit-item p {
     color: #555;
     font-size: 1em;
 }
