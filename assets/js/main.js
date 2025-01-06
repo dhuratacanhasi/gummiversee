@@ -9,3 +9,10 @@ $(document).ready(function(){
         }
     );
   });
+  // Select all buttons with the class 'shop-now-button'
+document.querySelectorAll('.shop-now-button').forEach(function(button) {
+    button.addEventListener('click', function() {
+        // Open a new blank page when any button is clicked
+        window.open("shopnow.html", "_blank");
+    });
+});
