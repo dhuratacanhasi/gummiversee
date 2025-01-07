@@ -16,3 +16,18 @@ document.querySelectorAll('.shop-now-button').forEach(function(button) {
         window.open("shopnow.html", "_blank");
     });
 });
+let previewConatiner = document.querySelector{'.dhc-products-preview'};
+let previewBox = previewConatiner.querySelectorAll('.dhcpreview');
+
+document.querySelectorAll('.dhc-products-container .dhcproduct').forEach(dhcproduct =>{
+dhcproduct.onclick = () =>{
+    previewContainer.style.display = 'flex';
+    let name= dhcproduct.getAttribute('data-name')
+    previewBox.forEach(dhcpreview => {
+     let target = preview.getAttribute('data-target');
+     if(name == target){
+        preview.classList.add('active');
+     }
+    });
+};
+});

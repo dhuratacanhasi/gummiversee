@@ -1,7 +1,7 @@
-*{
-    font-family: 'Ppoppins' , sans-serif;
-    margin:0; padding:0;
-    box-sizing:border-box;
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
     outline: none; border: none;
     text-decoration: none;
     transition: all .2s linear;
@@ -10,55 +10,73 @@
     line-height: 24px;
     color: #333;
 }
-body{
-    background-color:  #ee4bcb;
+body {
+    background-color: #ee4bcb;
 }
-.dhc-container{
-    max-width: 1200px;
+.dhc-container {
+    max-width: 1200px; /* Standard container width */
     margin: 0 auto;
-    padding: 3rem 2 rem;
+    padding: 5rem 2rem;
 }
-.dhc-container .title{
-    font-size: 3.5rem;
+.dhc-container .title {
+    font-size: 4.5rem; /* Larger title */
     color: #444;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     text-transform: uppercase;
-    text-align:center;
-}
-.dhc-container .dhc-products-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fir, minmax(30rem, 1fr));
-    gap:2rem;
-}
-.dhc-container .dhc-products-container .dhc-product{
     text-align: center;
-    padding:3rem 2rem;
+}
+.dhc-container .dhc-products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 products in a row */
+    gap: 3rem; /* Spacing between items */
+    justify-content: center;
+    align-items: center;
+}
+.dhc-container .dhc-products-container .dhcproduct {
+    text-align: center;
+    padding: 2rem 1.5rem;
     background: #fff;
-    box-shadow: 0 .5rem 1rem rgba(0, 0,0, .1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     outline: .1rem solid #ccc;
     outline-offset: -1.5rem;
     cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.3s ease, outline 0.3s ease;
 }
-.dhc-container .dhc-products-container .dhc-product:hover{
+.dhc-container .dhc-products-container .dhcproduct:hover {
     outline: .2rem solid #222;
     outline-offset: 0;
+    transform: translateY(-5px);
 }
-.dhc-container .dhc-products-container .dhc-product img{
-    height: 25rem;
+.dhc-container .dhc-products-container .dhcproduct img {
+    height: 200px; /* Keeps the current size of the images */
+    width: auto;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
 }
-.dhc-container .dhc-products-container .dhc-product:hover img{
-    transform: scale(.9);
+.dhc-container .dhc-products-container .dhcproduct:hover img {
+    transform: scale(1.1);
 }
-.dhc-container .dhc-products-container .dhc-product h3{
+.dhc-container .dhc-products-container .dhcproduct h3 {
     padding: .5rem;
-    font-size:2rem;
-    color:#444;
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 1rem; /* Adds space below the product name */
 }
-.dhc-container .dhc-products-container .dhc-product:hover h3{
-    color:#27ae60;
+.dhc-container .dhc-products-container .dhcproduct .dhc-qmimi {
+    font-size: 1.5rem;
+    color: #444;
+    margin-top: 1rem; /* Adds space above the price */
 }
-.dhc-container .dhc-products-container .dhc-product .dhc-qmimi{
-    font-size:2rem;
-    color:#444;
-    
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .dhc-container .dhc-products-container {
+        grid-template-columns: repeat(2, 1fr); /* Adjusts to 2 items per row */
+    }
+}
+@media (max-width: 768px) {
+    .dhc-container .dhc-products-container {
+        grid-template-columns: repeat(1, 1fr); /* Adjusts to 1 item per row */
+    }
 }
