@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Style CSS-->
     <link rel="stylesheet" href="assets/css/contact.css">
-      <!--Font Awesome CSS-->
-      <link rel="stylesheet" href="assets/css/font-awesome.css">
     <title>Contact Us</title>
 </head>
 <body>
-    <div class="dhc-conatiner">
+    <nav class="navbar">
+        <div class="container-md">
+            <a class="navbar-brand" href="GUMMIVERSE.html">Return</a>
+        </div>
+    </nav>
+
+    <div class="dhc-container">
         <h1>Contact Us</h1>
         <form id="contactForm">
             <input type="text" id="name" placeholder="Your Name" required>
@@ -21,16 +24,16 @@
             <button type="submit">Confirm</button>
         </form>
     </div>
+
     <script>
-        // JavaScript to validate the name field
+        // JavaScript for form validation
         document.getElementById('contactForm').addEventListener('submit', function (event) {
             const nameField = document.getElementById('name');
             const nameValue = nameField.value.trim();
 
-            // Check if the name contains any numbers
             if (/\d/.test(nameValue)) {
                 alert('Name cannot contain numbers. Please enter a valid name.');
-                event.preventDefault(); // Prevent form submission
+                event.preventDefault();
             }
         });
     </script>

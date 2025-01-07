@@ -1,79 +1,87 @@
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
 
 body {
-    background-color: #ee4bcb;
+    margin-top: 80px; 
+    font-family: 'Poppins', sans-serif;
+    background-color:  #ee4bcb81;
+}
+
+.navbar {
+    background-color:#ee4bcb;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+}
+
+.navbar .container-md {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar-links a:hover {
+    color: #750a5e; 
+    text-decoration: underline;
 }
 
 .dhc-container {
-    width: 80%;
-    max-width: 600px;
-    padding: 30px;
-    background-color: #ee4bcb83;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    background-image: url('assets/img/'); /* Path to your image */
-    background-size: cover; /* Ensures the image covers the entire container */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    color: #fff; /* Adjust text color for contrast */
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin: 50px auto;
+    
 }
 
-.dhc-container h1 {
-    text-align: center;
+h1 {
+    font-size: 2rem;
     margin-bottom: 20px;
-    color: #36082c;
-}
-h1{
-    color:#36082c;
-    text-align: center;
-    margin-bottom:3rem;
+    color: #750a5e;
 }
 
-form input,
-form textarea {
-    display: block;
+form input, form textarea {
     width: 100%;
-    margin-bottom: 15px;
-    padding: 15px; /* Increased padding for larger input areas */
-    border: none;
-    border-radius: 8px;
-    background-color: #f7f7f7;
-    color: #333;
-    font-size: 1.8rem; /* Larger font for better readability */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-form input:focus,
-form textarea:focus {
-    outline: none;
-    box-shadow: 0 0 5px #333;
-}
-form button {
-    display: block;
-    width: 100%;
-    padding: 15px;
+button {
+    background-color: #750a5e;
+    color: white;
+    padding: 10px 20px;
     border: none;
-    border-radius: 8px;
-    background-color:#36082c;
-    color: #fff;
+    border-radius: 5px;
     cursor: pointer;
-    transition: 0.3s ease;
-    font-size: 16px;
 }
 
-form button:hover {
-    background-color: #36082c;
+button:hover {
+    background-color:#49043a;
 }
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .dhc-container {
