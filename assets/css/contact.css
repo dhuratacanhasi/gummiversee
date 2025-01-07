@@ -1,0 +1,91 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #ee4bcb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dhc-container {
+    width: 80%;
+    max-width: 600px;
+    padding: 30px;
+    background-color: #ee4bcb83;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-image: url('assets/img/'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: #fff; /* Adjust text color for contrast */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dhc-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #36082c;
+}
+h1{
+    color:#36082c;
+    text-align: center;
+    margin-bottom:3rem;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px; /* Increased padding for larger input areas */
+    border: none;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 1.8rem; /* Larger font for better readability */
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #333;
+}
+form button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color:#36082c;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #36082c;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .dhc-container {
+        padding: 20px;
+    }
+
+    form input,
+    form textarea {
+        font-size: 0.9rem;
+    }
+
+    form button {
+        font-size: 0.9rem;
+    }
+}
