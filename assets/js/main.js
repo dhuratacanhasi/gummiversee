@@ -7,3 +7,6 @@ $(document).ready(function(){
         dots: true,
     });
 });
+document.querySelector('.shop-now-button').addEventListener('click', function () {
+    window.location.href = 'sales.html'; 
+});

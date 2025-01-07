@@ -1,0 +1,121 @@
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffecf3; /* Light pinkish background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ff76a3; /* Pinkish color */
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .navbar-brand {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar .navbar-brand:hover {
+    color: #ff4c85; /* Slightly darker shade for hover effect */
+}
+
+/* Title Section */
+.title-section {
+    text-align: center;
+    padding: 100px 20px 40px; /* Extra padding to account for navbar */
+}
+
+.title-section h1 {
+    font-size: 3rem;
+    color: #ff4c85; /* Bright pink */
+    margin-bottom: 10px;
+}
+
+.title-section p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Product Grid */
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-card {
+    width: 30%; /* Adjusts to fit three products per row */
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-card h2 {
+    font-size: 1.5rem;
+    color: #ff4c85;
+    margin: 10px 0;
+}
+
+.product-card p {
+    color: #555;
+    font-size: 1rem;
+    padding: 0 10px 10px;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff76a3;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .product-card {
+        width: 45%; /* Two products per row for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .product-card {
+        width: 90%; /* One product per row for very small screens */
+    }
+}
