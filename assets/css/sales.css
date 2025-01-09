@@ -11,21 +11,20 @@
     color: #333;
 }
 body {
-    background-color: #ee4bcb81;
+    background-color: #ffe6f0;
 }
 
-.navbar {
-    background-color:#ee4bcb;
+.dhc-navbar {
+    background-color:#ff76a3;
     padding: 15px 0;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 1000; 
-    margin-bottom: 20px;
 }
 
-.navbar .container-md {
+.dhc-navbar .dhc-container-md {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,7 +32,7 @@ body {
     margin: 0 auto;
 }
 
-.navbar-brand {
+.dhc-navbar-brand {
     font-size: 24px;
     color: white;
     text-decoration: none;
@@ -41,31 +40,10 @@ body {
     letter-spacing: 2px;
 }
 
-.navbar-links a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.navbar-links a:hover {
-    color: #750a5e; 
-    text-decoration: underline;
-}
 .dhc-container {
     max-width: 1200px; /* Standard container width */
     margin: 0 auto;
     padding: 5rem 2rem;
-}
-.dhc-container .title {
-    font-size: 5rem; /* Larger title */
-    color: #750a5e;
-    font-family: 'Ppoppins' , sans-serif;
-    margin-bottom: 4rem;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 1.2;
 }
 .dhc-container .dhc-products-container {
     display: grid;

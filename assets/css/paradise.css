@@ -13,7 +13,7 @@ body {
 }
 
 /* Navbar */
-.navbar {
+.dhc-navbar {
     background-color: #ff76a3; /* Pinkish color */
     padding: 15px 20px;
     position: fixed;
@@ -26,7 +26,7 @@ body {
     justify-content: space-between;
 }
 
-.navbar .navbar-brand {
+.dhc-navbar .dhc-navbar-brand {
     font-size: 24px;
     color: white;
     text-decoration: none;
@@ -34,29 +34,29 @@ body {
     letter-spacing: 2px;
 }
 
-.navbar .navbar-brand:hover {
+.dhc-navbar .dhc-navbar-brand:hover {
     color: #ff4c85; /* Slightly darker shade for hover effect */
 }
 
 /* Title Section */
-.title-section {
+.dhc-title-section {
     text-align: center;
     padding: 100px 20px 40px; /* Extra padding to account for navbar */
 }
 
-.title-section h1 {
+.dhc-title-section h1 {
     font-size: 3rem;
     color: #ff4c85; /* Bright pink */
     margin-bottom: 10px;
 }
 
-.title-section p {
+.dhc-title-section p {
     font-size: 1.2rem;
     color: #555;
 }
 
 /* Product Grid */
-.product-grid {
+.dhc-product-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -66,7 +66,7 @@ body {
     padding: 20px;
 }
 
-.product-card {
+.dhc-product-card {
     width: 30%; /* Adjusts to fit three products per row */
     background-color: white;
     border-radius: 10px;
@@ -76,23 +76,23 @@ body {
     transition: transform 0.3s ease;
 }
 
-.product-card:hover {
+.dhc-product-card:hover {
     transform: scale(1.05); /* Slight zoom on hover */
 }
 
-.product-card img {
+.dhc-product-card img {
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
 
-.product-card h2 {
+.dhc-product-card h2 {
     font-size: 1.5rem;
     color: #ff4c85;
     margin: 10px 0;
 }
 
-.product-card p {
+.dhc-product-card p {
     color: #555;
     font-size: 1rem;
     padding: 0 10px 10px;
@@ -109,13 +109,13 @@ footer {
 
 /* Media Queries */
 @media (max-width: 768px) {
-    .product-card {
+    .dhc-product-card {
         width: 45%; /* Two products per row for smaller screens */
     }
 }
 
 @media (max-width: 480px) {
-    .product-card {
+    .dhc-product-card {
         width: 90%; /* One product per row for very small screens */
     }
 }

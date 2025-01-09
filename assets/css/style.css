@@ -3,33 +3,24 @@ body{
     font-family: 'Poppins' , sans-serif;
     font-size: 16px;
     line-height: 24px;
-    color: #333;
+    color:#fc5b91;
 }
 .DHC-top-bar-area{
-    background-color: #ee4bcb;
+    background-color:#ff76a3;
     padding: 25px 0;
 }
-.DHC-top-bar-info a{
-    color: #fff;
-    text-decoration: none;
-    margin-right: 20 px;
-    font-weight: 500;
-    font-size: 14px;
-}
-.DHC-top-bar-social a{
-    color: #fff;
-    margin-left: 10px;
-}
+
 .navbar-brand{
+    color:#fc5b91;
     text-transform: uppercase;
     font-size: 26px;
     font-weight: 700;
 }
 .DHC-menu li a{
-    color:#333
+    color:#333;
 }
 .navbar-nav.DHC-menu li a{
-    color: #333;
+    color:#fc5b91;
     font-size: 17px;
     font-weight:500;
     margin: 0 5px;
@@ -138,7 +129,7 @@ body{
 .slider-area .owl-dots button{
     width: 20px;
     height: 20px;
-    background-color: #fff;
+    background-color: #fdcadeda;
     display: block;
     margin: 15px 0;
 }
@@ -150,6 +141,13 @@ body{
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff76a3;
+    color: white;
+    margin-top: 20px;
 }
 .shop-now-button {
     background-color: #ec8dd8; 
@@ -164,4 +162,52 @@ body{
 .shop-now-button:hover {
     background-color: #d26d9e; 
     transform: translateY(-5px); 
+}
+ /* Responsive Design */
+ @media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .navbar-nav.DHC-menu li a {
+        font-size: 15px;
+        padding: 15px 0;
+    }
+
+    .single-slide h1 {
+        font-size: 30px;
+    }
+
+    .single-slide p {
+        font-size: 14px;
+    }
+
+    .shop-now-button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    .navbar-nav.DHC-menu li a {
+        font-size: 13px;
+        padding: 10px 0;
+    }
+
+    .single-slide h1 {
+        font-size: 25px;
+    }
+
+    .single-slide p {
+        font-size: 12px;
+    }
+
+    .shop-now-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
 }

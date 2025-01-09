@@ -8,10 +8,35 @@ body, h1, h2, p {
 /* Body Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #ee4bcba9;
+    background-color: #ffe6f0;
     color: #333;
     line-height: 1.8;
     padding: 25px;
+}
+.dhc-navbar {
+    background-color:#ff76a3;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+}
+
+.dhc-navbar .dhc-container-md {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.dhc-navbar-brand {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .dhc-gummy-benefits {
@@ -26,14 +51,14 @@ body {
 
 /* Heading */
 .dhc-gummy-benefits h1 {
-    color: #570044;
+    color: #fc5b91;
     font-size: 2.5em;
     margin-bottom: 20px;
 }
 
 .dhc-gummy-benefits .intro {
     font-size: 1.2em;
-    color: #555;
+    color:#fc5b91;
     margin-bottom: 30px;
 }
 
@@ -65,9 +90,9 @@ body {
 }
 
 
-.dhc-benefit-item h2 {
+.dhc-benefit-item h2{
     font-size: 1.5em;
-    color: #570044;
+    color: #fc5b91;
     margin-bottom: 10px;
 }
 
@@ -78,7 +103,7 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .benefit-list {
+    .dhc-benefit-list {
         flex-direction: column;
         gap: 15px;
     }

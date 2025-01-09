@@ -7,6 +7,8 @@ $(document).ready(function(){
         dots: true,
     });
 });
-document.querySelector('.shop-now-button').addEventListener('click', function () {
-    window.location.href = 'sales.html'; 
+document.querySelectorAll('.shop-now-button').forEach(button => {
+    button.addEventListener('click', () => {
+        window.location.href = 'sales.html'; // Redirect to sales.html
+    });
 });

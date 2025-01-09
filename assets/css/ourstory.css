@@ -13,7 +13,7 @@ body {
 }
 
 /* Navbar */
-.navbar {
+.dhc-navbar {
     background-color: #ff76a3; /* Bright pink color */
     padding: 15px 20px;
     position: fixed;
@@ -27,7 +27,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.navbar .navbar-brand {
+.dhc-navbar .dhc-navbar-brand {
     font-size: 24px;
     color: white;
     text-decoration: none;
@@ -35,29 +35,29 @@ body {
     letter-spacing: 2px;
 }
 
-.navbar .navbar-brand:hover {
+.dhc-navbar .dhc-navbar-brand:hover {
     color: #ff4c85; /* Slightly darker pink for hover */
 }
 
 /* Title Section */
-.title-section {
+.dhc-title-section {
     text-align: center;
     padding: 50px 20px;
 }
 
-.title-section h1 {
+.dhc-title-section h1 {
     font-size: 3rem;
     color: #ff4c85; /* Bright pink text */
     margin-bottom: 10px;
 }
 
-.title-section p {
+.dhc-title-section p {
     font-size: 1.2rem;
     color: #555;
 }
 
 /* Story Section */
-.story-section {
+.dhc-story-section {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
@@ -67,19 +67,19 @@ body {
     align-items: center;
 }
 
-.story-image {
+.dhc-story-image {
     flex: 1;
     text-align: center;
 }
 
-.story-image img {
+.dhc-story-image img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-.story-content {
+.dhc-story-content {
     flex: 2;
     background-color: white;
     border-radius: 10px;
@@ -87,51 +87,51 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.story-content h2 {
+.dhc-story-content h2 {
     font-size: 2rem;
     color: #ff4c85; /* Pink headings */
     margin-bottom: 10px;
 }
 
-.story-content p {
+.dhc-story-content p {
     font-size: 1rem;
     color: #555;
     margin-bottom: 15px;
 }
 @media (max-width: 1024px) {
-    .navbar {
+    .dhc-navbar {
         padding: 12px 18px;
     }
 
-    .navbar .navbar-brand {
+    .dhc-navbar .dhc-navbar-brand {
         font-size: 20px;
     }
 
-    .title-section h1 {
+    .dhc-title-section h1 {
         font-size: 2.5rem;
     }
 
-    .title-section p {
+    .dhc-title-section p {
         font-size: 1.1rem;
     }
 
-    .story-section {
+    .dhc-story-section {
         flex-direction: column;
         align-items: flex-start;
         padding: 15px;
     }
 
-    .story-image,
-    .story-content {
+    .dhc-story-image,
+    .dhc-story-content {
         flex: none;
         width: 100%;
     }
 
-    .story-content h2 {
+    .dhc-story-content h2 {
         font-size: 1.8rem;
     }
 
-    .story-content p {
+    .dhc-story-content p {
         font-size: 0.95rem;
     }
 }
@@ -141,32 +141,32 @@ body {
         padding: 10px 15px;
     }
 
-    .navbar .navbar-brand {
+    .dhc-navbar .navbar-brand {
         font-size: 18px;
     }
 
-    .title-section h1 {
+    .dhc-title-section h1 {
         font-size: 2rem;
     }
 
-    .title-section p {
+    .dhc-title-section p {
         font-size: 1rem;
     }
 
-    .story-section {
+    .dhc-story-section {
         flex-direction: column;
         padding: 10px;
     }
 
-    .story-image img {
+    .dhc-story-image img {
         border-radius: 8px;
     }
 
-    .story-content h2 {
+    .dhc-story-content h2 {
         font-size: 1.6rem;
     }
 
-    .story-content p {
+    .dhc-story-content p {
         font-size: 0.9rem;
     }
 
@@ -180,35 +180,35 @@ body {
         padding-top: 60px; /* Adjust for smaller screens */
     }
 
-    .navbar {
+    .dhc-navbar {
         padding: 8px 12px;
     }
 
-    .navbar .navbar-brand {
+    .dhc-navbar .navbar-brand {
         font-size: 16px;
     }
 
-    .title-section h1 {
+    .dhc-title-section h1 {
         font-size: 1.8rem;
     }
 
-    .title-section p {
+    .dhc-title-section p {
         font-size: 0.9rem;
     }
 
-    .story-section {
+    .dhc-story-section {
         padding: 8px;
     }
 
-    .story-content {
+    .dhc-story-content {
         padding: 15px;
     }
 
-    .story-content h2 {
+    .dhc-story-content h2 {
         font-size: 1.4rem;
     }
 
-    .story-content p {
+    .dhc-story-content p {
         font-size: 0.85rem;
     }
 
