@@ -100,7 +100,7 @@ body {
     color: #555;
     font-size: 1em;
 }
-.gummy-flavors-table {
+.dhc-gummy-flavors-table {
     width: 100%;
     max-width: 600px;
     margin: 20px auto;
@@ -109,7 +109,7 @@ body {
     color:#ff377a;
   }
   
-  .gummy-flavors-table table {
+  .dhc-gummy-flavors-table table {
     width: 100%;
     border-collapse: collapse;
     background-color: #fff;
@@ -118,7 +118,7 @@ body {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .gummy-flavors-table thead th {
+  .dhc-gummy-flavors-table thead th {
     background-color: #ffcce0;
     color: #fc5b91; 
     padding: 12px;
@@ -127,21 +127,21 @@ body {
     border-bottom: 2px solid #f3a6c4;
   }
   
-  .gummy-flavors-table tbody tr {
+  .dhc-gummy-flavors-table tbody tr {
     border-bottom: 1px solid #fce4ec;
   }
   
-  .gummy-flavors-table tbody td {
+  .dhc-gummy-flavors-table tbody td {
     padding: 12px;
     text-align: left;
   }
   
  
-  .gummy-flavors-table tbody tr:hover {
+  .dhc-gummy-flavors-table tbody tr:hover {
     background-color: #ffeaf3;
   }
   
-  .gummy-flavors-table tbody tr:last-child td {
+  .dhc-gummy-flavors-table tbody tr:last-child td {
     border-bottom: none;
   }
 /* Responsive Design */
@@ -197,7 +197,7 @@ body {
         padding: 15px;
     }
 
-    .gummy-flavors-table table {
+    .dhc-gummy-flavors-table table {
         font-size: 0.9em;
     }
 }

@@ -143,6 +143,24 @@ body{
     top: 50%;
     transform: translateY(-50%);
 }
+#gummiverse { 
+    color: #fff; 
+    text-align: center;
+    padding: 50px 20px; 
+}
+#gummiverse h1 {
+    font-size: 48px; 
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#gummiverse p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
 footer {
     text-align: center;
     padding: 20px;
@@ -165,8 +183,21 @@ footer {
     transform: translateY(-5px); 
 }
 
- /* Responsive Design */
- @media (max-width: 768px) {
+@media (max-width: 1024px) {
+    #gummiverse h1 {
+        font-size: 36px; 
+    }
+
+    #gummiverse p {
+        font-size: 16px;
+    }
+
+    .shop-now-button {
+        padding: 12px 24px;
+    }
+}
+
+@media (max-width: 768px) {
     .navbar-brand {
         font-size: 20px;
     }
@@ -182,6 +213,14 @@ footer {
 
     .single-slide p {
         font-size: 14px;
+    }
+
+    #gummiverse h1 {
+        font-size: 30px;
+    }
+
+    #gummiverse p {
+        font-size: 15px;
     }
 
     .shop-now-button {
@@ -208,8 +247,39 @@ footer {
         font-size: 12px;
     }
 
+    #gummiverse h1 {
+        font-size: 24px;
+    }
+
+    #gummiverse p {
+        font-size: 14px;
+    }
+
     .shop-now-button {
         font-size: 14px;
         padding: 8px 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 360px) {
+    #gummiverse h1 {
+        font-size: 20px;
+    }
+
+    #gummiverse p {
+        font-size: 12px;
+    }
+
+    .shop-now-button {
+        font-size: 12px;
+        padding: 6px 12px;
     }
 }
