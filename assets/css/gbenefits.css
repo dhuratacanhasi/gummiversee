@@ -100,7 +100,52 @@ body {
     color: #555;
     font-size: 1em;
 }
+.gummy-flavors-table {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color:#ff377a;
+  }
+  
+  .gummy-flavors-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
 
+  .gummy-flavors-table thead th {
+    background-color: #ffcce0;
+    color: #fc5b91; 
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid #f3a6c4;
+  }
+  
+  /* Table Body Rows */
+  .gummy-flavors-table tbody tr {
+    border-bottom: 1px solid #fce4ec;
+  }
+  
+  .gummy-flavors-table tbody td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Hover Effect for Rows */
+  .gummy-flavors-table tbody tr:hover {
+    background-color: #ffeaf3;
+  }
+  
+  /* Remove Border for Last Row */
+  .gummy-flavors-table tbody tr:last-child td {
+    border-bottom: none;
+  }
 /* Responsive Design */
 @media (max-width: 768px) {
     .dhc-benefit-list {

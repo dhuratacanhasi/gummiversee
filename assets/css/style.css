@@ -163,6 +163,7 @@ footer {
     background-color: #d26d9e; 
     transform: translateY(-5px); 
 }
+
  /* Responsive Design */
  @media (max-width: 768px) {
     .navbar-brand {
