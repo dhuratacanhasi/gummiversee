@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0; padding: 0;
@@ -41,14 +42,14 @@ body {
 }
 
 .dhc-container {
-    max-width: 1200px; /* Standard container width */
+    max-width: 1200px; 
     margin: 0 auto;
     padding: 5rem 2rem;
 }
 .dhc-container .dhc-products-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 products in a row */
-    gap: 3rem; /* Spacing between items */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 3rem; 
     justify-content: center;
     align-items: center;
 }
@@ -69,7 +70,7 @@ body {
     transform: translateY(-5px);
 }
 .dhc-container .dhc-products-container .dhcproduct img {
-    height: 200px; /* Keeps the current size of the images */
+    height: 200px; 
     width: auto;
     margin-bottom: 1rem;
     transition: transform 0.3s ease;
@@ -81,17 +82,17 @@ body {
 .dhc-container .dhc-products-container .dhcproduct .dhc-qmimi {
     font-size: 1.5rem;
     color:#750a5e;
-    margin-top: 1rem; /* Adds space above the price */
+    margin-top: 1rem; 
 }
 
 /* Responsive Design */
 @media (max-width: 1024px) {
     .dhc-container .dhc-products-container {
-        grid-template-columns: repeat(2, 1fr); /* Adjusts to 2 items per row */
+        grid-template-columns: repeat(2, 1fr); 
     }
 }
 @media (max-width: 768px) {
     .dhc-container .dhc-products-container {
-        grid-template-columns: repeat(1, 1fr); /* Adjusts to 1 item per row */
+        grid-template-columns: repeat(1, 1fr); 
     }
 }

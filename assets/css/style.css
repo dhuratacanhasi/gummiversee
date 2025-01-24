@@ -30,7 +30,7 @@ body{
 .navbar-nav.DHC-menu li a:hover{
     color:#ec8dd8;
 }
-.navbar-na.v.DHC-menu li{
+.navbar-nav.DHC-menu li{
     position:  relative;
 }
 .navbar-nav.DHC-menu li ul{
@@ -73,6 +73,7 @@ body{
 }
 .navbar-na.v.DHC-menu li.caret{
     position: relative;
+    display: inline-block; 
 }
 .navbar-nav.DHC-menu li.caret:after{
     position: absolute;

@@ -1,13 +1,13 @@
-/* General Reset */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body, h1, h2, p {
     margin: 0;
     padding: 5px;
     box-sizing: border-box;
 }
 
-/* Body Styles */
+
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #ffe6f0;
     color: #333;
     line-height: 1.8;
@@ -49,7 +49,7 @@ body {
     margin: 20px auto;
 }
 
-/* Heading */
+
 .dhc-gummy-benefits h1 {
     color: #fc5b91;
     font-size: 2.5em;
@@ -127,7 +127,6 @@ body {
     border-bottom: 2px solid #f3a6c4;
   }
   
-  /* Table Body Rows */
   .gummy-flavors-table tbody tr {
     border-bottom: 1px solid #fce4ec;
   }
@@ -137,12 +136,11 @@ body {
     text-align: left;
   }
   
-  /* Hover Effect for Rows */
+ 
   .gummy-flavors-table tbody tr:hover {
     background-color: #ffeaf3;
   }
   
-  /* Remove Border for Last Row */
   .gummy-flavors-table tbody tr:last-child td {
     border-bottom: none;
   }
@@ -150,6 +148,56 @@ body {
 @media (max-width: 768px) {
     .dhc-benefit-list {
         flex-direction: column;
-        gap: 15px;
+        align-items: center;
+    }
+
+    .dhc-benefit-item {
+        flex: 1 1 100%;
+        max-width: 90%; 
+    }
+
+    .gummy-flavors-table {
+        max-width: 100%;
+        margin: 10px;
+    }
+
+    .dhc-navbar .dhc-container-md {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .dhc-navbar-brand {
+        font-size: 20px;
+    }
+
+    .dhc-gummy-benefits h1 {
+        font-size: 1.8em;
+    }
+
+    .dhc-gummy-benefits .intro {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .dhc-navbar-brand {
+        font-size: 18px;
+    }
+
+    .dhc-gummy-benefits {
+        padding: 20px;
+    }
+
+    .dhc-gummy-benefits h1 {
+        font-size: 1.5em;
+    }
+
+    .dhc-benefit-item {
+        padding: 15px;
+    }
+
+    .gummy-flavors-table table {
+        font-size: 0.9em;
     }
 }

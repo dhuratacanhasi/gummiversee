@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,15 +7,15 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #ffe6f0; /* Pinkish background */
+    background-color: #ffe6f0; 
     color: #333;
     line-height: 1.6;
-    padding-top: 80px; /* To avoid content being hidden under navbar */
+    padding-top: 80px; 
 }
 
-/* Navbar */
+
 .dhc-navbar {
-    background-color: #ff76a3; /* Bright pink color */
+    background-color: #ff76a3; 
     padding: 15px 20px;
     position: fixed;
     width: 100%;
@@ -36,10 +37,10 @@ body {
 }
 
 .dhc-navbar .dhc-navbar-brand:hover {
-    color: #ff4c85; /* Slightly darker pink for hover */
+    color: #ff4c85; 
 }
 
-/* Title Section */
+
 .dhc-title-section {
     text-align: center;
     padding: 50px 20px;
@@ -47,7 +48,7 @@ body {
 
 .dhc-title-section h1 {
     font-size: 3rem;
-    color: #ff4c85; /* Bright pink text */
+    color: #ff4c85; 
     margin-bottom: 10px;
 }
 
@@ -56,7 +57,7 @@ body {
     color: #555;
 }
 
-/* Story Section */
+
 .dhc-story-section {
     max-width: 1200px;
     margin: 20px auto;
@@ -76,7 +77,7 @@ body {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .dhc-story-content {
@@ -89,7 +90,7 @@ body {
 
 .dhc-story-content h2 {
     font-size: 2rem;
-    color: #ff4c85; /* Pink headings */
+    color: #ff4c85; 
     margin-bottom: 10px;
 }
 

@@ -1,20 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body, h1, h2, p, ul, li, a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #ffecf3; /* Light pinkish background */
+    background-color: #ffecf3; 
     color: #333;
     line-height: 1.6;
 }
 
-/* Navbar */
 .dhc-navbar {
-    background-color: #ff76a3; /* Pinkish color */
+    background-color: #ff76a3; 
     padding: 15px 20px;
     position: fixed;
     width: 100%;
@@ -35,18 +34,17 @@ body {
 }
 
 .dhc-navbar .dhc-navbar-brand:hover {
-    color: #ff4c85; /* Slightly darker shade for hover effect */
+    color: #ff4c85; 
 }
 
-/* Title Section */
 .dhc-title-section {
     text-align: center;
-    padding: 100px 20px 40px; /* Extra padding to account for navbar */
+    padding: 100px 20px 40px; 
 }
 
 .dhc-title-section h1 {
     font-size: 3rem;
-    color: #ff4c85; /* Bright pink */
+    color: #ff4c85; 
     margin-bottom: 10px;
 }
 
@@ -55,7 +53,6 @@ body {
     color: #555;
 }
 
-/* Product Grid */
 .dhc-product-grid {
     display: flex;
     flex-wrap: wrap;
@@ -67,7 +64,7 @@ body {
 }
 
 .dhc-product-card {
-    width: 30%; /* Adjusts to fit three products per row */
+    width: 30%; 
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
@@ -77,7 +74,7 @@ body {
 }
 
 .dhc-product-card:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
+    transform: scale(1.05); 
 }
 
 .dhc-product-card img {
@@ -96,9 +93,10 @@ body {
     color: #555;
     font-size: 1rem;
     padding: 0 10px 10px;
+    font-weight: normal;
 }
 
-/* Footer Section */
+
 footer {
     text-align: center;
     padding: 20px;
@@ -110,12 +108,12 @@ footer {
 /* Media Queries */
 @media (max-width: 768px) {
     .dhc-product-card {
-        width: 45%; /* Two products per row for smaller screens */
+        width: 45%; 
     }
 }
 
 @media (max-width: 480px) {
     .dhc-product-card {
-        width: 90%; /* One product per row for very small screens */
+        width: 90%; 
     }
 }
